@@ -297,7 +297,7 @@ void loop(){
       gyro_yaw_cal += gyro_yaw;                                  //Ad yaw value to gyro_yaw_cal.
       delay(4);                                                  //Wait 3 milliseconds before the next loop.
     }
-    //Now that we have 2000 measures, we need to devide by 2000 to get the average gyro offset.
+    //Now that we have 2000 measures, we need to divide by 2000 to get the average gyro offset.
     gyro_roll_cal /= 2000;                                       //Divide the roll total by 2000.
     gyro_pitch_cal /= 2000;                                      //Divide the pitch total by 2000.
     gyro_yaw_cal /= 2000;                                        //Divide the yaw total by 2000.
