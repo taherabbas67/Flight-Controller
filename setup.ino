@@ -857,7 +857,7 @@ void intro(){
   Serial.println(F(""));
   Serial.println(F("==================================================="));
   delay(1500);
-  Serial.println(F("For support and questions: www.brokking.net"));
   Serial.println(F(""));
-  Serial.println(F("Have fun!"));
+  Serial.println(F("Research & Development by Center For Autonomous Systems GITAM."));
+  Serial.println(F(""));
 }
